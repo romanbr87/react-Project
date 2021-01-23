@@ -1,0 +1,25 @@
+body {
+    background-image: url("./Imges/background1.png"); 
+    background-size: 'cover';
+}
+
+.delButton{
+    width: 30px;
+    margin-top: 10px;
+}
+
+.product {
+    display: block;
+    border: 2px solid black;
+    cursor: pointer;
+    width: 25%;
+    margin: auto auto 1% auto;
+}
+
+.product:hover {
+    border: 2px solid white;
+}
+
+button:focus, select:focus {
+    outline: none;
+}
